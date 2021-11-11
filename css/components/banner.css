@@ -1,0 +1,19 @@
+.banner {
+    font-family: 'Mochiy Pop One', sans-serif;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/background.png");
+    height: 600px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>p {
+    color: #c7a6a6
+}
+
+.banner h1 {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 2.2em;
+}

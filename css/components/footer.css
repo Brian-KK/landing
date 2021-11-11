@@ -1,0 +1,17 @@
+.footer {
+    height: 200px;
+    background-color: rgb(25, 27, 23);
+    margin-top: 80px;
+}
+
+.footer p {
+    color: rgb(193, 187, 187)
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: darkolivegreen;
+}

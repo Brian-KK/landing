@@ -1,0 +1,13 @@
+.btn-medium {
+    display: inline-block;
+    border: 1px solid rgb(70, 151, 70);
+    padding: 12px 24px;
+    border-radius: 24px;
+    color: white;
+    transition: 0.3s;
+    background-color: rgb(70, 151, 70);
+}
+
+.btn-medium:hover {
+    background-color: rgb(37, 76, 37)
+}
