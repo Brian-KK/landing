@@ -13,25 +13,42 @@
 
 /* Utilities */
 
-body {
-    margin: 0;
-    font-family: Open Sans;
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Open Sans;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: Poppins;
+	font-family: Poppins;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
+	margin-top: 8px;
 }
 
-
 /* Custom design below! */
+
+section {
+	min-height: 400px;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.repeat {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
